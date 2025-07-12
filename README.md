@@ -80,7 +80,7 @@ Pillow
 
 
 
-##▶️ **Running the Streamlit App**
+## ▶️ **Running the Streamlit App**
 
 ```
 cd app
