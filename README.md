@@ -55,7 +55,7 @@ It includes a **Streamlit Web App** for easy user interaction: upload PPG+ABP da
 
 ---
 
-## ⚙️ Setup & Installation
+## ⚙️   Setup and Installation
 
 > Requirements
 - Python 3.8+
@@ -76,13 +76,13 @@ scikit-learn
 tensorflow
 Pillow
 
-##▶️ Running the Streamlit App
+##▶️ **Running the Streamlit App**
 
 ```
 cd app
 streamlit run streamlit_app.py
 ```
-📈 Model Details
+📈 **Model Details**
 Hybrid architecture: CNN (for scalogram images) + BiLSTM (for PPG signals)
 
 Regression output: SBP and DBP in mmHg
@@ -91,7 +91,7 @@ Trained on preprocessed PPG-ABP datasets
 
 Scaler saved for inverse-transform of model predictions
 
-🩸 BP Category Rules
+🩸 **BP Category Rules**
 Normal: SBP < 120 and DBP < 80
 
 Elevated (Prehypertension): SBP 120–129 and DBP < 80
@@ -102,12 +102,13 @@ Hypertension Stage 2: SBP ≥ 140 or DBP ≥ 90
 
 ⚠️ For medical/clinical use, this logic can be customized or refined.
 
-🗄️ Data Privacy
+
+🗄️ **Data Privacy**
 ✅ User uploads are stored in unique session folders
 ✅ No long-term data retention
 ✅ Temporary folders can be cleared manually
 
-💻 Example CSV Format
+💻 **Example CSV Format**
 PPG	ABP
 0.823	110.5
 0.826	111.0
@@ -115,7 +116,8 @@ PPG	ABP
 
 CSV must include PPG and ABP columns.
 
-🤝 Contributing
+
+🤝 **Contributing**
 PRs and issues welcome! Please:
 
 Keep functions pure and modular
@@ -124,10 +126,11 @@ Follow existing code style
 
 Include clear docstrings
 
-📜 License
+
+📜 **License**
 MIT License © 2025 BhavyaShukla
 
-❤️ Acknowledgments
+❤️ **Acknowledgments**
 Streamlit for UI
 
 TensorFlow/Keras for model training
