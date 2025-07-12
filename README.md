@@ -126,10 +126,13 @@ Hypertension Stage 2: SBP ≥ 140 or DBP ≥ 90
 
 
 ## 💻 **Example CSV Format**
-PPG	ABP
-0.823	110.5
-0.826	111.0
-...	...
+
+| PPG   | ABP   |
+| ----- | ----- |
+| 0.823 | 110.5 |
+| 0.826 | 111.0 |
+| ...   | ...   |
+
 
 CSV must include PPG and ABP columns.
 
